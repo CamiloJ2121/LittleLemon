@@ -1,0 +1,49 @@
+.reservation-form {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background-color: #fff;
+    font-family: 'Karla', sans-serif;
+
+    label {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-weight: 500;
+      color: #1a1a1a;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      font-family: inherit;
+
+      &:focus {
+        border-color: #495E57;
+        outline: none;
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #495E57;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: #3fa64b;
+      }
+    }
+  }

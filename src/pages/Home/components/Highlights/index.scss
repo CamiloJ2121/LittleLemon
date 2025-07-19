@@ -1,0 +1,31 @@
+.app-highlights {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto 0px;
+
+    &__header {
+      width: 100%;
+      margin-bottom: 20px;
+
+      h2 {
+        padding-left: 0;
+        font-size: 53px;
+      }
+    }
+
+    &__button {
+      background: #F4CE14;
+      color: #000;
+      border-radius: 16px;
+      padding: 30px;
+      width: 200px;
+      font-weight: 600;
+      font-size: 21px;
+    }
+
+    &__container {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+  }

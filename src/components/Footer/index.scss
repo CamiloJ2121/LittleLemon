@@ -1,0 +1,28 @@
+.app-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 250px auto 20px;
+    justify-content: space-between;
+    display: flex;
+
+    img {
+        height: 300px;
+        border-radius: 6px;
+    }
+
+    nav > *,
+    section > *  {
+        flex-direction: column;
+    }
+
+    nav li,
+    section li {
+       margin-left: 0;
+    }
+
+    &__title {
+        color: #000;
+        font-weight: 600;
+        font-size: 22px;
+    }
+}

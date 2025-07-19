@@ -1,0 +1,35 @@
+.app-about {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 80px auto 0px;
+    position: relative;
+
+    .app-hero-card__subTitle {
+        color: #000;
+    }
+
+    .app-hero-card__btn {
+        display: none;
+    }
+
+    p {
+        color: #000;
+        font-size: 21px;
+    }
+
+    img {
+        position: absolute;
+        height: 280px;
+        border-radius: 6px;
+    }
+
+    &__image1 {
+        top: 40px;
+        right: 0;
+    }
+    &__image2 {
+        top: 145px;
+        right: 240px;
+    }
+}

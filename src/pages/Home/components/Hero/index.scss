@@ -1,0 +1,22 @@
+.app-hero {
+    display: flex;
+    background: #495e57;
+
+    img {
+        width: 310px;
+        height: 310px;
+        border-radius: 15px;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+
+    &__section {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+
