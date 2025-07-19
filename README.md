@@ -2,6 +2,7 @@
 
 1. Cloná este repositorio:
 
+```bash
 git clone https://github.com/CamiloJ2121/LittleLemon.git
 cd LittleLemon
 git checkout main  # (opcional) asegurate de estar en la rama principal
