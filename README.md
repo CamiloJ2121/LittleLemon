@@ -50,6 +50,7 @@ Create React App	El proyecto fue creado usando create-react-app
 📁 La API mock tuvo que ser incluida manualmente en el repositorio para poder utilizarse correctamente.
 
 
+<img width="483" height="640" alt="Captura de pantalla 2025-07-19 a la(s) 4 24 20 a  m" src="https://github.com/user-attachments/assets/5a4c2b1f-e3b3-41d4-b12f-946322f57621" />
 
 ## 🚀 ¿Cómo probar la app localmente?
 
@@ -82,3 +83,6 @@ npm install
 npm start
 
 The application will open at http://localhost:3000.
+
+
+
